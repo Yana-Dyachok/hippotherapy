@@ -13,6 +13,11 @@ const resources = {
       Send: 'Send',
       Error: 'Error',
       HowItWas: 'How it was',
+      Statut: 'Union charter',
+      Directions: 'Directions',
+      DirectSubtitle: 'which we promote in Ukraine',
+      Join: 'Join',
+      Contacts: 'Contacts',
     },
   },
   uk: {
@@ -29,6 +34,11 @@ const resources = {
       Send: 'Надіслати',
       Error: 'Помилка',
       HowItWas: 'Як це було',
+      Statut: 'Cтатут спілки',
+      Directions: 'Напрямки',
+      DirectSubtitle: 'які ми просуваємо в Україні',
+      Join: 'Долучитися',
+      Contacts: 'Контакти',
     },
   },
 };

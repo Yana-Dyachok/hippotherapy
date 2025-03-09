@@ -1,39 +1,41 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import instaIcon from '../../../assets/svg/icon-insta.svg';
+import telegIcon from '../../../assets/svg/icon-telegram.svg';
+import faceIcon from '../../../assets/svg/icon-facebook.svg';
 
 const Social = () => {
   return (
-    <ul className="">
+    <ul className="flex gap-4">
       <li className="">
         <Link
           className=""
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/ueatara/#"
           title="Перейти в інстаграм"
           aria-label="Інстаграм"
-        ></Link>
+        >
+          <Image src={instaIcon} alt="logo" width={20} height={20} priority />
+        </Link>
       </li>
       <li className="">
         <Link
           className=""
-          href="https://workspace.google.com/intl/uk/gmail/"
-          title="Перейти в пошта"
-          aria-label="пошта"
-        ></Link>
-      </li>
-      <li className="">
-        <Link
-          className=""
-          href="https://fb.com"
+          href="https://www.facebook.com/ueatara/"
           title="Перейти в фейсбук"
           aria-label="Фейсбук"
-        ></Link>
+        >
+          <Image src={faceIcon} alt="logo" width={20} height={20} priority />
+        </Link>
       </li>
       <li className="">
         <Link
           className=""
-          href="https://web.telegram.org/a/"
+          href="https://t.me/UEATARA"
           title="Перейти в телеграм"
           aria-label="телеграм"
-        ></Link>
+        >
+          <Image src={telegIcon} alt="logo" width={20} height={20} priority />
+        </Link>
       </li>
     </ul>
   );

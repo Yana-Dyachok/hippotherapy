@@ -31,7 +31,13 @@ const Header = () => {
           <li>
             {' '}
             <Link href="#" className="">
-              Долучитися
+              {t('Join')}
+            </Link>
+          </li>
+          <li>
+            {' '}
+            <Link href="#" className="">
+              {t('Contacts')}
             </Link>
           </li>
         </ul>
