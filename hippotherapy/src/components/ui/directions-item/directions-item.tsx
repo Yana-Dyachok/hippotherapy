@@ -8,8 +8,7 @@ const DirectionsItem = () => {
   return (
     <li className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center">
       <Image src={directImg} alt="logo" width={20} height={20} priority />
-      <h3>{t('Directions')}</h3>
-      <p>{t('DirectSubtitle')}</p>
+      <p>{t('HowItWas')}</p>
     </li>
   );
 };
