@@ -1,11 +1,12 @@
 'use client';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
-import Logo from '../ui/logo/logo';
-import ToggleLanguages from '../toggle-languages/toggle-languages';
-import Button from '../ui/button/button';
+import { Logo } from '../ui/logo/logo';
+import { ToggleLanguages } from '../toggle-languages/toggle-languages';
+import { Button } from '../ui/button/button';
+import { LinkItem } from '../ui/link/link';
 
-const Header = () => {
+export const Header = () => {
   const { t } = useTranslation();
   return (
     <header className="flex justify-between gap-2 p-5 text-[#000000] bg-[#FFFFFF]">
@@ -15,9 +16,9 @@ const Header = () => {
       <nav>
         <ul className="flex gap-3">
           <li className="">
-            <Link href="/" className="">
+            <LinkItem to="/" color="light">
               {t('Main')}
-            </Link>
+            </LinkItem>
           </li>
           <li className="">
             <Link href="/membership" className="">
@@ -45,12 +46,10 @@ const Header = () => {
       </nav>
       <div className="flex">
         <ToggleLanguages />
-        <Button btnType="button" color="dark" disabled={true}>
+        <Button btnType="button" color="dark">
           {t('Support')}
         </Button>
       </div>
     </header>
   );
 };
-
-export default Header;

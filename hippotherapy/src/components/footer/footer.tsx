@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Social from '../ui/social/social';
+import { Social } from '../ui/social/social';
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="flex justify-between p-2">
       <ul className="">
@@ -16,5 +16,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

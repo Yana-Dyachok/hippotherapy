@@ -1,4 +1,4 @@
-const resources = {
+export const resources = {
   EN: {
     translation: {
       EN: 'EN',
@@ -52,4 +52,3 @@ const resources = {
     },
   },
 };
-export default resources;

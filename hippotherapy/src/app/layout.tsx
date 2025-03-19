@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import StoreProvider from '@/lib/StoreProvider';
-import ErrorBoundary from '@/components/error-boundary/error-boundary';
-import Header from '@/components/header/header';
-import Footer from '@/components/footer/footer';
-import I18nProvider from '@/utils/launguages/launquage-provider';
+import { StoreProvider } from '@/lib/StoreProvider';
+import { ErrorBoundary } from '@/components/error-boundary/error-boundary';
+import { Header } from '@/components/header/header';
+import { Footer } from '@/components/footer/footer';
+import { I18nProvider } from '@/utils/launguages/launquage-provider';
 import './globals.css';
 
 // eslint-disable-next-line react-refresh/only-export-components

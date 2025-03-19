@@ -1,11 +1,10 @@
 'use client';
-
 import { useDispatch, useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { RootState } from '../../lib/store';
 import { setLanguage } from '@/lib/slices/language-slice';
 
-const ToggleLanguages = () => {
+export const ToggleLanguages = () => {
   const dispatch = useDispatch();
   const { i18n, t } = useTranslation();
   const language = useSelector((state: RootState) => state.language.language);
@@ -36,5 +35,3 @@ const ToggleLanguages = () => {
     </div>
   );
 };
-
-export default ToggleLanguages;

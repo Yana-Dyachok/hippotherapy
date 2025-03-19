@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import aboutUsImg from '../../assets/img/about-img.png';
 
-const AboutUsSection = () => {
+export const AboutUsSection = () => {
   const { t } = useTranslation();
   return (
     <section className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -18,5 +18,3 @@ const AboutUsSection = () => {
     </section>
   );
 };
-
-export default AboutUsSection;

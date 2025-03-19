@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 import directImg from '../../../assets/logo/logo.jpg';
 
-const DirectionsItem = () => {
+export const DirectionsItem = () => {
   const { t } = useTranslation();
   return (
     <li className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center">
@@ -12,5 +12,3 @@ const DirectionsItem = () => {
     </li>
   );
 };
-
-export default DirectionsItem;

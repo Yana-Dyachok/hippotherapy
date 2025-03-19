@@ -4,7 +4,7 @@ import instaIcon from '../../../assets/svg/icon-insta.svg';
 import telegIcon from '../../../assets/svg/icon-telegram.svg';
 import faceIcon from '../../../assets/svg/icon-facebook.svg';
 
-const Social = () => {
+export const Social = () => {
   return (
     <ul className="flex gap-4">
       <li className="">
@@ -40,5 +40,3 @@ const Social = () => {
     </ul>
   );
 };
-
-export default Social;

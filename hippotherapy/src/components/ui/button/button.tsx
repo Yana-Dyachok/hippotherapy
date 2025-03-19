@@ -1,3 +1,7 @@
+'use client';
+
+import Link from 'next/link';
+
 type ButtonProps = {
   btnType: 'button' | 'submit';
   children: string;
@@ -7,7 +11,7 @@ type ButtonProps = {
   onClick?: () => void;
 };
 
-const Button = ({
+export const Button = ({
   btnType = 'button',
   children,
   onClick,
@@ -16,18 +20,15 @@ const Button = ({
   color,
 }: ButtonProps) => {
   const handleClick = () => {
-    if (to) {
-      window.location.href = to;
-    }
     if (onClick) {
       onClick();
     }
   };
 
-  return (
+  const buttonContent = (
     <button
-      className={`px-2 py-2  transition-shadow duration-300 ${color === 'light' ? 'bg-white text-black' : 'bg-[#1B1B1B] text-white'}  font-semibold rounded-lg shadow-md transition-all duration-300
-      ${disabled ? 'bg-[#DCDCDC] text-[#1B1B1B80] cursor-not-allowed' : 'hover:shadow-xs hover:shadow-black'}`}
+      className={`py-4 px-8  transition-shadow duration-300 ${color === 'light' ? 'bg-white text-black hover:shadow-2xs hover:shadow-[#877A76] hover:bg-[#FAFAFA]' : 'bg-[#1B1B1B] text-white'} cursor-pointer font-semibold rounded-lg shadow-md transition-all duration-300
+      ${disabled ? 'bg-[#DCDCDC] text-[#D0D0D0] cursor-not-allowed' : 'hover:shadow-l hover:shadow-[#AFA7A3]'}`}
       disabled={disabled}
       type={btnType === 'button' ? 'button' : 'submit'}
       onClick={handleClick}
@@ -35,6 +36,13 @@ const Button = ({
       {children}
     </button>
   );
-};
 
-export default Button;
+  if (to) {
+    return (
+      <Link href={to} passHref>
+        {buttonContent}
+      </Link>
+    );
+  }
+  return buttonContent;
+};
