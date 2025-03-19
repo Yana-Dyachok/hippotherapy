@@ -23,6 +23,11 @@ export const resources = {
         'Ueatara - Public Union "Union of Hippotherapy, Hypotension and Adaptive Equestrian Sports Specialists," strive to unite the efforts of specialists, enthusiasts and organizations to improve the quality of life of people through the use of the therapeutic potential of interaction with horses. We promote the development of hippotherapy, adaptive equestrian sport and ipovence in Ukraine by creating innovative rehabilitation programs, supporting research and implementing international standards.',
       AboutTextTwo:
         'Our goal is to make hippotherapy accessible to everyone who needs it, to promote the professional development of industry specialists, as well as to form a socially responsible community where everyone can find support, an opportunity for growth and new prospects. Together, we create favorable conditions for the integration of equestrian therapy into the system of health care, education and social adaptation, opening new horizons for the development of this direction in Ukraine.',
+      AddToCommunity: 'Add To Community',
+      HeroTitle:
+        'New opportunities for equestrian sport and rehabilitation in Ukraine',
+      HeroSubtitle:
+        'We work on the implementation of modern techniques, unite specialists and create opportunities for the development of equestrian sports and rehabilitation. Join the changes!',
     },
   },
   UA: {
@@ -49,6 +54,10 @@ export const resources = {
         'Ueatara – громадська спілка «Спілка Спеціалістів з Іпотерапії, Іповенції та Адаптивного Кінного Спорту», прагнемо об`єднати зусилля фахівців, ентузіастів та організацій для покращення якості життя людей через використання терапевтичного потенціалу взаємодії з кіньми. Ми сприяємо розвитку іпотерапії, адаптивного кінного спорту та іповенції в Україні, створюючи інноваційні програми реабілітації, підтримуючи наукові дослідження та впроваджуючи міжнародні стандарти. Наша мета – зробити іпотерапію доступною для всіх, хто її потребує, сприяти професійному розвитку спеціалістів галузі, а також формувати соціально відповідальну спільноту, де кожен може знайти підтримку, можливість для зростання та нові перспективи. Разом ми створюємо сприятливі умови для інтеграції кінної терапії в систему охорони здоров`я, освіти та соціальної адаптації, відкриваючи нові горизонти для розвитку цього напрямку в Україні.',
       AboutTextTwo:
         'Наша мета – зробити іпотерапію доступною для всіх, хто її потребує, сприяти професійному розвитку спеціалістів галузі, а також формувати соціально відповідальну спільноту, де кожен може знайти підтримку, можливість для зростання та нові перспективи. Разом ми створюємо сприятливі умови для інтеграції кінної терапії в систему охорони здоров`я, освіти та соціальної адаптації, відкриваючи нові горизонти для розвитку цього напрямку в Україні.',
+      AddToCommunity: 'Долучитися до спільноти',
+      HeroTitle: 'Нові можливості для кінного спорту та реабілітації в Україні',
+      HeroSubtitle:
+        'Ми працюємо над впровадженням сучасних методик, об`єднуємо спеціалістів та створюємо можливості для розвитку кінного спорту та реабілітації. Приєднуйтесь до змін!',
     },
   },
 };

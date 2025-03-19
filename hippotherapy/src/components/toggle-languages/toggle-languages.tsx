@@ -18,7 +18,7 @@ export const ToggleLanguages = () => {
       <button
         type="button"
         disabled={language === 'EN'}
-        className="px-4 py-2 text-[#000000]  disabled:text-[#CFCCC7] disabled:cursor-not-allowed"
+        className="px-4 py-2 text-[#000000] cursor-pointer disabled:text-[#CFCCC7] disabled:cursor-not-allowed"
         onClick={() => handleClick('EN')}
       >
         {t('EN')}
@@ -27,7 +27,7 @@ export const ToggleLanguages = () => {
       <button
         type="button"
         disabled={language === 'UA'}
-        className="px-4 py-2 text-[#000000]  disabled:text-[#CFCCC7] disabled:cursor-not-allowed"
+        className="px-4 py-2 text-[#000000] cursor-pointer disabled:text-[#CFCCC7] disabled:cursor-not-allowed"
         onClick={() => handleClick('UA')}
       >
         {t('UA')}

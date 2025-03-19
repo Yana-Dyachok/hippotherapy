@@ -14,7 +14,7 @@ export const Social = () => {
           title="Перейти в інстаграм"
           aria-label="Інстаграм"
         >
-          <Image src={instaIcon} alt="logo" width={20} height={20} priority />
+          <Image src={instaIcon} alt="insta" width={20} height={20} priority />
         </Link>
       </li>
       <li className="">
@@ -24,7 +24,7 @@ export const Social = () => {
           title="Перейти в фейсбук"
           aria-label="Фейсбук"
         >
-          <Image src={faceIcon} alt="logo" width={20} height={20} priority />
+          <Image src={faceIcon} alt="face" width={20} height={20} priority />
         </Link>
       </li>
       <li className="">
@@ -34,7 +34,13 @@ export const Social = () => {
           title="Перейти в телеграм"
           aria-label="телеграм"
         >
-          <Image src={telegIcon} alt="logo" width={20} height={20} priority />
+          <Image
+            src={telegIcon}
+            alt="telegram"
+            width={20}
+            height={20}
+            priority
+          />
         </Link>
       </li>
     </ul>
