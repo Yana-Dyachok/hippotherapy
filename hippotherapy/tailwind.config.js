@@ -9,6 +9,10 @@ module.exports = {
       backgroundImage: {
         'hero-image': "url('/hero.jpg')",
       },
+      fontFamily: {
+        rubik: ['Rubik Mono One', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],

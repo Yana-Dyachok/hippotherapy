@@ -5,7 +5,7 @@ export const resources = {
       UA: 'UA',
       Main: 'Main',
       Membership: 'Membership',
-      AboutUs: 'About us',
+      AboutUs: 'ABOUT US',
       Submit: 'Submit',
       NotFound: 'Ooops... Page not found',
       ErrorMessage: 'Ooops... You are getting an error',
@@ -28,6 +28,18 @@ export const resources = {
         'New opportunities for equestrian sport and rehabilitation in Ukraine',
       HeroSubtitle:
         'We work on the implementation of modern techniques, unite specialists and create opportunities for the development of equestrian sports and rehabilitation. Join the changes!',
+      BecomeMemberTitle: 'HOW TO BECOME A MEMBER',
+      BecomeMemberStepOne:
+        'Joining us is easy! Complete the registration form and become part of a community that supports adaptive sports and rehabilitation.',
+      BecomeMemberStepTwo: 'Pay the annual charitable contribution.',
+      BecomeMemberStepThree: 'Get a return letter from the team.',
+      Step: 'Step',
+      WeHelp: 'WE HELP',
+      TextHelpOne: 'Large families',
+      TextHelpTwo: 'Victims of the consequences of the war in Ukraine',
+      TextHelpThree:
+        'People who find themselves in difficult life circumstances',
+      TextHelpFour: 'People with disabilities and their families',
     },
   },
   UA: {
@@ -36,7 +48,7 @@ export const resources = {
       UA: 'Укр',
       Main: 'Головна',
       Membership: 'Членство',
-      AboutUs: 'Про нас',
+      AboutUs: 'ПРО НАС',
       Submit: 'Підтвердити',
       NotFound: 'Упс... Сторінку не знайдено',
       ErrorMessage: 'Упс... Ви отримали помилку',
@@ -58,6 +70,17 @@ export const resources = {
       HeroTitle: 'Нові можливості для кінного спорту та реабілітації в Україні',
       HeroSubtitle:
         'Ми працюємо над впровадженням сучасних методик, об`єднуємо спеціалістів та створюємо можливості для розвитку кінного спорту та реабілітації. Приєднуйтесь до змін!',
+      BecomeMemberTitle: 'ЯК СТАТИ ЧЛЕНОМ',
+      BecomeMemberStepOne:
+        'Приєднатися до нас легко! Заповніть реєстраційну форму і станьте частиною спільноти, яка підтримує адаптивний спорт та реабілітацію.',
+      BecomeMemberStepTwo: 'Оплатити річний благодійний внесок.',
+      BecomeMemberStepThree: 'Отримати зворотній лист від команди.',
+      Step: 'Крок',
+      WeHelp: 'МИ ДОПОМОГАЄМО',
+      TextHelpOne: 'Багатодітним родинам',
+      TextHelpTwo: 'Постраждалим від наслідків війни в Україні',
+      TextHelpThree: 'Людям, які опинились в складних жіттєвих обставинах',
+      TextHelpFour: 'Людям з інвалідностью та їхнім сім’ям',
     },
   },
 };
