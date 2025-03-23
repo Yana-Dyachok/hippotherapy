@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { RootState } from '../../lib/store';
 import { setLanguage } from '@/lib/slices/language-slice';
+import style from './toggle-languages.module.scss';
 
 export const ToggleLanguages = () => {
   const dispatch = useDispatch();
@@ -14,11 +15,11 @@ export const ToggleLanguages = () => {
   };
 
   return (
-    <div className="flex items-center">
+    <div className={style.buttons}>
       <button
         type="button"
         disabled={language === 'EN'}
-        className="px-4 py-2 text-[#000000] cursor-pointer disabled:text-[#CFCCC7] disabled:cursor-not-allowed"
+        className={style.button}
         onClick={() => handleClick('EN')}
       >
         {t('EN')}
@@ -27,7 +28,7 @@ export const ToggleLanguages = () => {
       <button
         type="button"
         disabled={language === 'UA'}
-        className="px-4 py-2 text-[#000000] cursor-pointer disabled:text-[#CFCCC7] disabled:cursor-not-allowed"
+        className={style.button}
         onClick={() => handleClick('UA')}
       >
         {t('UA')}

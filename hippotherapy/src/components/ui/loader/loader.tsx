@@ -1,9 +1,12 @@
 import React from 'react';
+import styles from './loader.module.scss';
 
-export const Loader: React.FC = () => {
+const Loader: React.FC = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className="border-4 border-t-4 border-[var(--gray-200)] border-t-transparent rounded-full w-16 h-16 animate-spin"></div>
-    </div>
+    <section className={styles.loaderContainer}>
+      <div className={styles.loader} role="loader"></div>
+    </section>
   );
 };
+
+export default Loader;

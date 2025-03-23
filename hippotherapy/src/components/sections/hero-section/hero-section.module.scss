@@ -1,0 +1,31 @@
+@use '../../../styles/colors.scss' as colors;
+
+.hero {
+  height: 84.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 5rem;
+  color: colors.$c-white;
+}
+
+.wrapper {
+  max-width: 144rem;
+}
+
+.textBlock {
+  max-width: 75.2rem;
+}
+
+.title {
+  font-size: 4.8rem;
+  padding-bottom: 5rem;
+}
+
+.subTitle {
+  font-size: 2.4rem;
+  padding-bottom: 5rem;
+}

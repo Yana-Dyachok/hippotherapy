@@ -1,0 +1,13 @@
+.buttons {
+  display: flex;
+  align-items: baseline;
+}
+
+.button {
+  padding: 2rem 1rem;
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+    color: #cfccc7;
+  }
+}
