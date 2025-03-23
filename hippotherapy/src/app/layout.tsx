@@ -4,7 +4,7 @@ import { ErrorBoundary } from '@/components/error-boundary/error-boundary';
 import { Header } from '@/components/header/header';
 import { Footer } from '@/components/footer/footer';
 import { I18nProvider } from '@/utils/launguages/launquage-provider';
-import './globals.css';
+import './globals.scss';
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const metadata: Metadata = {
