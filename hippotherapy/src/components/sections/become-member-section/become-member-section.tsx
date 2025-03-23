@@ -5,7 +5,7 @@ export const BecomeMemberSection = () => {
   const { t } = useTranslation();
   return (
     <section className="min-h-93 flex justify-center bg-green-900 py-15">
-      <div className="w-full max-w-360 grid grid-cols-[1fr_2fr]">
+      <div className="max-w-360 grid grid-cols-[1fr_2fr]">
         <h2 className="font-rubik text-5xl leading-16 tracking-[0] font-extrabold max-w-[300px]">
           {t('BecomeMemberTitle')}
         </h2>
