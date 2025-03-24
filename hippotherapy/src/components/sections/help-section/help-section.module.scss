@@ -1,0 +1,51 @@
+@use '../../../styles/colors.scss' as colors;
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  max-width: 144rem;
+  padding: 12.1rem 14rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.figureBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.figure {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.1rem;
+}
+
+.figure:not(:last-child) {
+  border-right: 1px solid colors.$c-gray-150;
+}
+
+.figcaption {
+  text-align: center;
+  padding: 0 2.5rem;
+}
+
+.title {
+  font-family: 'Rubik-Mono-one, monospace';
+  font-size: 4rem;
+}
+
+.subTitle:not(:last-child) {
+  padding-bottom: 2rem;
+}
+
+.step {
+  font-size: 2.4rem;
+}
