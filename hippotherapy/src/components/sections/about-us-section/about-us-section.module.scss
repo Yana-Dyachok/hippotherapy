@@ -1,0 +1,25 @@
+@use '../../../styles/colors.scss' as colors;
+
+.section {
+  display: flex;
+  justify-content: center;
+  background-color: colors.$c-brown-500;
+  color: colors.$c-white;
+}
+
+.block {
+  max-width: 144rem;
+  padding: 6rem 10.7rem;
+  display: grid;
+  grid-template-columns: 1fr 1.55fr;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Rubik-Mono-one, monospace';
+  font-size: 4rem;
+}
+
+.subTitle:first-child {
+  padding-bottom: 2rem;
+}
