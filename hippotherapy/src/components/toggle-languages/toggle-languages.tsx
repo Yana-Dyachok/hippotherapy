@@ -18,20 +18,19 @@ export const ToggleLanguages = () => {
     <div className={style.buttons}>
       <button
         type="button"
-        disabled={language === 'EN'}
-        className={style.button}
-        onClick={() => handleClick('EN')}
-      >
-        {t('EN')}
-      </button>
-      <span className=" text-[#CFCCC7]">|</span>
-      <button
-        type="button"
         disabled={language === 'UA'}
         className={style.button}
         onClick={() => handleClick('UA')}
       >
         {t('UA')}
+      </button>
+      <button
+        type="button"
+        disabled={language === 'EN'}
+        className={style.button}
+        onClick={() => handleClick('EN')}
+      >
+        {t('EN')}
       </button>
     </div>
   );

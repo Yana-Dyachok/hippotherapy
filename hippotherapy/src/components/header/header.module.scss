@@ -1,15 +1,14 @@
 .header {
   display: flex;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 2.35rem 0 2.4rem;
 }
 
 .wrapper {
-  max-width: 144rem;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: baseline;
+  max-width: 122.3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.5fr;
+  align-items: center;
 }
 
 .navList {
@@ -20,5 +19,5 @@
 .buttons {
   display: flex;
   align-items: baseline;
-  gap: 2rem;
+  gap: 3rem;
 }
