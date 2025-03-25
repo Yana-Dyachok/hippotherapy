@@ -14,7 +14,7 @@ export const resources = {
       Error: 'Error',
       HowItWas: 'How it was',
       Statut: 'Union charter',
-      Directions: 'Directions',
+      Directions: 'DIRECTIONS',
       DirectSubtitle: 'which we promote in Ukraine',
       Join: 'Join',
       Contacts: 'Contacts',
@@ -40,6 +40,15 @@ export const resources = {
       TextHelpThree:
         'People who find themselves in difficult life circumstances',
       TextHelpFour: 'People with disabilities and their families',
+      Hippotherapy: 'Hippotherapy',
+      Ipovence: 'Ipovence',
+      AdaptiveEquestrian: 'Adaptive equestrian sport',
+      HippotherapyText:
+        'it is a method of rehabilitation and treatment through riding. It helps to improve the physical and psycho-emotional state, develops coordination, balance, strengthens muscles and reduces stress levels. Especially effective for children and adults with disorders of the musculoskeletal system, neurological or psychological disorders.',
+      IpovenceText:
+        'is a preventive horseback riding aimed at promoting health, improving physical fitness and emotional state. This is a way of relaxation and active rest that helps to relieve tension, develop self-confidence and improve well-being through harmonious interaction with the horse.',
+      AdaptiveEquestrianText:
+        'these are specially designed horse riding classes for people with disabilities and special needs. They promote physical development, improved coordination, balance and self-confidence. Thanks to an individual approach and special techniques, equestrian sport becomes accessible to everyone, regardless of physical capabilities.',
     },
   },
   UA: {
@@ -57,7 +66,7 @@ export const resources = {
       Error: 'Помилка',
       HowItWas: 'Як це було',
       Statut: 'Cтатут спілки',
-      Directions: 'Напрямки',
+      Directions: 'НАПРЯМКИ',
       DirectSubtitle: 'які ми просуваємо в Україні',
       Join: 'Долучитися',
       Contacts: 'Контакти',
@@ -81,6 +90,15 @@ export const resources = {
       TextHelpTwo: 'Постраждалим від наслідків війни в Україні',
       TextHelpThree: 'Людям, які опинились в складних жіттєвих обставинах',
       TextHelpFour: 'Людям з інвалідностью та їхнім сім’ям',
+      Hippotherapy: 'Іпотерапія',
+      Ipovence: 'Іповенція',
+      AdaptiveEquestrian: 'Адаптивний кінний спорт',
+      HippotherapyText:
+        'це метод реабілітації та лікування за допомогою верхової їзди. Вона допомагає покращити фізичний і психоемоційний стан, розвиває координацію, рівновагу, зміцнює м’язи та знижує рівень стресу. Особливо ефективна для дітей і дорослих із порушеннями опорно-рухового апарату, неврологічними або психологічними розладами.',
+      IpovenceText:
+        'це профілактичне катання на конях, спрямоване на зміцнення здоров`я, покращення фізичної форми та емоційного стану. Це спосіб релаксації та активного відпочинку, що допомагає зняти напругу, розвинути впевненість у собі й покращити самопочуття через гармонійну взаємодію з конем.',
+      AdaptiveEquestrianText:
+        'це спеціально розроблені заняття верховою їздою для людей з інвалідністю та особливими потребами. Вони сприяють фізичному розвитку, покращенню координації, рівноваги та впевненості в собі. Завдяки індивідуальному підходу та спеціальним методикам, кінний спорт стає доступним для всіх, незалежно від фізичних можливостей.',
     },
   },
 };

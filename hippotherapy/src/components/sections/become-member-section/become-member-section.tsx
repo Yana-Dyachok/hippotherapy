@@ -5,7 +5,7 @@ import style from './become-member-section.module.scss';
 export const BecomeMemberSection = () => {
   const { t } = useTranslation();
   return (
-    <section className={style.section} id="about-us">
+    <section className={style.section} id="member">
       <div className={style.block}>
         <h2 className={style.title}>{t('BecomeMemberTitle')}</h2>
         <div className={style.subTitles}>

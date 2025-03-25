@@ -13,8 +13,8 @@ export const MainPage = () => {
       <HeroSection />
       <AboutUsSection />
       <HelpSection />
-      <BecomeMemberSection />
       <DirectionsSection />
+      <BecomeMemberSection />
       <Button
         btnType="button"
         color="light"
