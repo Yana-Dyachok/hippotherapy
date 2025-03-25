@@ -49,6 +49,42 @@ export const resources = {
         'is a preventive horseback riding aimed at promoting health, improving physical fitness and emotional state. This is a way of relaxation and active rest that helps to relieve tension, develop self-confidence and improve well-being through harmonious interaction with the horse.',
       AdaptiveEquestrianText:
         'these are specially designed horse riding classes for people with disabilities and special needs. They promote physical development, improved coordination, balance and self-confidence. Thanks to an individual approach and special techniques, equestrian sport becomes accessible to everyone, regardless of physical capabilities.',
+
+      BenefitsTitle: 'BENEFITS OF MEMBERSHIP',
+      BenefitsSubTitle:
+        'Becoming a member of the public union "Ueatara," you get unique opportunities for professional and personal development, access to modern knowledge and support in the implementation of your initiatives in the field of hippotherapy, hypoventia and adaptive equestrian sports.',
+      BenefitsItemOne: 'Educational and professional opportunities',
+      BenefitsItemTwo: 'Participation in projects and events',
+      BenefitsItemThree: 'Support and exchange of experience',
+      BenefitsItemFour: 'Contribution to the development of the industry',
+      BenefitsDescriptOneItemOne:
+        'Access to exclusive trainings, workshops and seminars from leading experts from Ukraine and the world.',
+      BenefitsDescriptOneItemTwo:
+        'Specialized training programs in hippotherapy, adaptive equestrian sports and ipoventia.',
+      BenefitsDescriptOneItemThree:
+        'Possibility of obtaining certification and advanced training.',
+      BenefitsDescriptTwoItemOne:
+        'Opportunity to participate in national and international programs.',
+      BenefitsDescriptTwoItemTwo:
+        'Access to information about competitions, grants and funding to implement their own initiatives.',
+      BenefitsDescriptTwoItemThree:
+        'Invitations to forums, conferences and festivals where you can to present their projects and find partners.',
+      BenefitsDescriptThreeItemOne:
+        'Access to a closed community of experts, practitioners and enthusiasts to share knowledge and experience.',
+      BenefitsDescriptThreeItemTwo:
+        'Advice and support in the creation and development of their own rehabilitation and sports programs.',
+      BenefitsDescriptThreeItemThree:
+        'Cooperation with international organizations and participation in grant programs.',
+      BenefitsDescriptFourItemOne:
+        'Involvement in the formation of standards and methods of hippotherapy in Ukraine.',
+      BenefitsDescriptFourItemTwo:
+        'Participation in research and development of innovative approaches in the industry.',
+      BenefitsDescriptFourItemThree:
+        'Ability to influence policy development in the field of adaptive sports and rehabilitation.',
+      BenefitsEndOne: 'Together we change lives for the better!',
+      BenefitsEndTwo:
+        'Join Ueatara to become part of a professional community, develop your skills, help others and promote the integration of equine therapy into the health, education and social adaptation system.',
+      SupportUnion: 'SUPPORT THE UNION',
     },
   },
   UA: {
@@ -99,6 +135,41 @@ export const resources = {
         'це профілактичне катання на конях, спрямоване на зміцнення здоров`я, покращення фізичної форми та емоційного стану. Це спосіб релаксації та активного відпочинку, що допомагає зняти напругу, розвинути впевненість у собі й покращити самопочуття через гармонійну взаємодію з конем.',
       AdaptiveEquestrianText:
         'це спеціально розроблені заняття верховою їздою для людей з інвалідністю та особливими потребами. Вони сприяють фізичному розвитку, покращенню координації, рівноваги та впевненості в собі. Завдяки індивідуальному підходу та спеціальним методикам, кінний спорт стає доступним для всіх, незалежно від фізичних можливостей.',
+      BenefitsTitle: 'ПЕРЕВАГИ ЧЛЕНСТВА',
+      BenefitsSubTitle:
+        'Ставши членом громадської спілки «Ueatara», ви отримуєте унікальні можливості для професійного та особистісного розвитку, доступ до сучасних знань та підтримку в реалізації ваших ініціатив у сфері іпотерапії, іповенції та адаптивного кінного спорту.',
+      BenefitsItemOne: 'Освітні та професійні можливості',
+      BenefitsItemTwo: 'Участь у проєктах та заходах',
+      BenefitsItemThree: 'Підтримка та обмін досвідом',
+      BenefitsItemFour: 'Внесок у розвиток галузі',
+      BenefitsDescriptOneItemOne:
+        'Доступ до ексклюзивних тренінгів, майстер-класів та семінарів від провідних фахівців України та світу.',
+      BenefitsDescriptOneItemTwo:
+        'Спеціалізовані навчальні програми з іпотерапії, адаптивного кінного спорту та іповенції.',
+      BenefitsDescriptOneItemThree:
+        'Можливість отримання сертифікації та підвищення кваліфікації.',
+      BenefitsDescriptTwoItemOne:
+        'Можливість брати участь у національних та міжнародних програмах.',
+      BenefitsDescriptTwoItemTwo:
+        'Доступ до інформації про конкурси, гранти та фінансування для реалізації власних ініціатив.',
+      BenefitsDescriptTwoItemThree:
+        'Запрошення на форуми, конференції та фестивалі, де можна презентувати свої проєкти та знайти партнерів.',
+      BenefitsDescriptThreeItemOne:
+        'Доступ до закритої спільноти експертів, практиків та ентузіастів для обміну знаннями та досвідом.',
+      BenefitsDescriptThreeItemTwo:
+        'Консультації та підтримка у створенні та розвитку власних реабілітаційних та спортивних програм.',
+      BenefitsDescriptThreeItemThree:
+        'Співпраця з міжнародними організаціями та участь у грантових програмах.',
+      BenefitsDescriptFourItemOne:
+        'Долучення до формування стандартів та методик іпотерапії в Україні.',
+      BenefitsDescriptFourItemTwo:
+        'Участь у наукових дослідженнях та розробці інноваційних підходів в галузі.',
+      BenefitsDescriptFourItemThree:
+        'Можливість впливати на розвиток політики у сфері адаптивного спорту та реабілітації.',
+      BenefitsEndOne: 'Разом ми змінюємо життя на краще!',
+      BenefitsEndTwo:
+        'Приєднуйтесь до Ueatara, щоб стати частиною професійної спільноти, розвивати свої навички, допомагати іншим та сприяти інтеграції кінної терапії в систему охорони здоров’я, освіти та соціальної адаптації.',
+      SupportUnion: 'ПІДТРИМАТИ СПІЛКУ',
     },
   },
 };

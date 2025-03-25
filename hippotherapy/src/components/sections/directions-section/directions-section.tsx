@@ -24,9 +24,7 @@ export const DirectionsSection = () => {
             />
             <figcaption className={style.figcaption}>
               <h3 className={style.subTitle}>{t('Hippotherapy')}</h3>
-              <p className={style.description}>
-                &nbsp;&nbsp;&nbsp;&nbsp;{t('HippotherapyText')}
-              </p>
+              <p className={style.description}>{t('HippotherapyText')}</p>
             </figcaption>
           </figure>
 
@@ -40,9 +38,7 @@ export const DirectionsSection = () => {
             />
             <figcaption className={style.figcaption}>
               <h3 className={style.subTitle}> {t('Ipovence')}</h3>
-              <p className={style.description}>
-                &nbsp;&nbsp;&nbsp;&nbsp;{t('IpovenceText')}
-              </p>
+              <p className={style.description}>{t('IpovenceText')}</p>
             </figcaption>
           </figure>
           <figure className={style.figure}>
@@ -55,9 +51,7 @@ export const DirectionsSection = () => {
             />
             <figcaption className={style.figcaption}>
               <h3 className={style.subTitle}> {t('AdaptiveEquestrian')}</h3>
-              <p className={style.description}>
-                &nbsp;&nbsp;&nbsp;&nbsp;{t('AdaptiveEquestrianText')}
-              </p>
+              <p className={style.description}>{t('AdaptiveEquestrianText')}</p>
             </figcaption>
           </figure>
         </div>

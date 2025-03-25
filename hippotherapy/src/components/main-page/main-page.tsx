@@ -5,6 +5,7 @@ import { AboutUsSection } from '../sections/about-us-section/about-usabout-us-se
 import { HeroSection } from '../sections/hero-section/hero-section';
 import { BecomeMemberSection } from '../sections/become-member-section/become-member-section';
 import { HelpSection } from '../sections/help-section/help-section';
+import { BenefitsSection } from '../sections/benefits-section/benefits-section';
 import { Button } from '../ui/button/button';
 export const MainPage = () => {
   const { t } = useTranslation();
@@ -14,6 +15,7 @@ export const MainPage = () => {
       <AboutUsSection />
       <HelpSection />
       <DirectionsSection />
+      <BenefitsSection />
       <BecomeMemberSection />
       <Button
         btnType="button"

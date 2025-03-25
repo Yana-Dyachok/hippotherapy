@@ -9,9 +9,9 @@
 
 .block {
   max-width: 144rem;
-  padding: 6rem 10.7rem;
+  padding: 6rem 10.7rem 5.9rem;
   display: grid;
-  grid-template-columns: 1.1fr 1.6fr;
+  grid-template-columns: 1.1fr 1.71fr;
   width: 100%;
 }
 
@@ -20,10 +20,15 @@
   font-size: 4rem;
 }
 
+.subTitle {
+  text-indent: 2rem;
+}
+
 .subTitle:not(:last-child) {
   padding-bottom: 2rem;
 }
 
 .step {
   font-size: 2.4rem;
+  text-indent: 2rem;
 }

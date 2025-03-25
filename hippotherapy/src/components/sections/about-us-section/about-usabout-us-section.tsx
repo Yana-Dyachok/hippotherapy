@@ -9,12 +9,8 @@ export const AboutUsSection = () => {
       <div className={style.block}>
         <h2 className={style.title}>{t('AboutUs').toUpperCase()}</h2>
         <div className={style.subTitles}>
-          <p className={style.subTitle}>
-            &nbsp;&nbsp;&nbsp;{t('AboutTextOne')}
-          </p>
-          <p className={style.subTitle}>
-            &nbsp;&nbsp;&nbsp;{t('AboutTextTwo')}
-          </p>
+          <p className={style.subTitle}>{t('AboutTextOne')}</p>
+          <p className={style.subTitle}>{t('AboutTextTwo')}</p>
         </div>
       </div>
     </section>

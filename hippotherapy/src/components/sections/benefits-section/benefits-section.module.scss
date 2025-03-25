@@ -1,0 +1,63 @@
+@use '../../../styles/colors.scss' as colors;
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  max-width: 144rem;
+  padding: 4.1rem 10.7rem 12rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Rubik-Mono-one, monospace';
+  font-size: 4rem;
+  padding-bottom: 3.5rem;
+}
+
+.subTitle {
+  text-indent: 2rem;
+}
+
+.descriptionsBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  padding: 4.1rem 5.2rem;
+}
+
+.descriptionsWrapper {
+  width: 54.8rem;
+  height: 23.8rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2.2rem 3.1rem;
+  border: 1px solid colors.$c-gray-150;
+  border-radius: 1.2rem;
+}
+
+.descriptionsTitle {
+  font-family: 'Roboto-medium, sans serif';
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  padding-bottom: 1rem;
+}
+
+.descriptionsItem {
+  position: relative;
+  padding-left: 1.5rem;
+  line-height: 2.4rem;
+  letter-spacing: normal;
+}
+
+.descriptionsItem::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: colors.$c-black;
+}
