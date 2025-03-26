@@ -1,15 +1,18 @@
-import { Button } from '@/components/ui/button/button';
+'use client';
+import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
+import { Button } from '@/components/ui/button/button';
 import style from './not-found.module.scss';
 
 const NotFoundContent = () => {
+  const { t } = useTranslation();
   return (
     <div className={style.block}>
       <div className={style.wrapper}>
-        <h1>Ooops... Page not found</h1>
+        <h1>{t('ErrorMessage')}</h1>
         <Link href="/" passHref>
           <Button btnType="button" color="dark">
-            Back
+            {t('BackToMain')}
           </Button>
         </Link>
       </div>
