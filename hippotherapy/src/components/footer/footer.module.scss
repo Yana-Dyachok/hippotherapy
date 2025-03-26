@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0.5rem 6.2rem;
+}
+
+.wrapper {
+  max-width: 122.5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contactsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 3.7rem;
+  padding: 2.2rem 0 0 15.5rem;
+}
+
+.navBlock {
+  display: flex;
+  gap: 15.5rem;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}

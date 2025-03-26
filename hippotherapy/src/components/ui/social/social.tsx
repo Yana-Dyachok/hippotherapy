@@ -1,44 +1,54 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import instaIcon from '../../../assets/svg/icon-insta.svg';
-import telegIcon from '../../../assets/svg/icon-telegram.svg';
-import faceIcon from '../../../assets/svg/icon-facebook.svg';
+import instaIcon from '../../../assets/svg/instagram.svg';
+import telegIcon from '../../../assets/svg/telegram.svg';
+import faceIcon from '../../../assets/svg/facebook.svg';
+import youtubeIcon from '../../../assets/svg/youtube.svg';
+import googleIcon from '../../../assets/svg/google.svg';
+import style from './social.module.scss';
 
 export const Social = () => {
   return (
-    <ul className="flex gap-4">
-      <li className="">
-        <Link
-          className=""
-          href="https://www.instagram.com/ueatara/#"
-          title="Перейти в інстаграм"
-          aria-label="Інстаграм"
-        >
-          <Image src={instaIcon} alt="insta" width={20} height={20} priority />
+    <ul className={style.social}>
+      <li>
+        <Link href="https://ueatara.vercel.app/">
+          <Image
+            src={googleIcon}
+            alt="google"
+            width={24}
+            height={24}
+            priority
+          />
         </Link>
       </li>
-      <li className="">
-        <Link
-          className=""
-          href="https://www.facebook.com/ueatara/"
-          title="Перейти в фейсбук"
-          aria-label="Фейсбук"
-        >
-          <Image src={faceIcon} alt="face" width={20} height={20} priority />
+      <li>
+        <Link href="https://www.facebook.com/ueatara/">
+          <Image src={faceIcon} alt="face" width={24} height={24} priority />
         </Link>
       </li>
-      <li className="">
-        <Link
-          className=""
-          href="https://t.me/UEATARA"
-          title="Перейти в телеграм"
-          aria-label="телеграм"
-        >
+      <li>
+        <Link href="https://www.instagram.com/ueatara/#">
+          <Image src={instaIcon} alt="insta" width={24} height={24} priority />
+        </Link>
+      </li>
+      <li>
+        <Link href="https://www.youtube.com/@UEATARA">
+          <Image
+            src={youtubeIcon}
+            alt="youtube"
+            width={24}
+            height={24}
+            priority
+          />
+        </Link>
+      </li>
+      <li>
+        <Link href="https://t.me/UEATARA">
           <Image
             src={telegIcon}
             alt="telegram"
-            width={20}
-            height={20}
+            width={24}
+            height={24}
             priority
           />
         </Link>

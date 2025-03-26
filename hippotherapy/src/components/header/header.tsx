@@ -13,22 +13,22 @@ export const Header = () => {
   return (
     <header className={style.header}>
       <div className={style.wrapper}>
-        <Link href="/" className="">
+        <Link href="/">
           <Logo />
         </Link>
         <nav>
           <ul className={style.navList}>
-            <li className="">
+            <li>
               <LinkItem to="/" color={theme}>
                 {t('Main')}
               </LinkItem>
             </li>
-            <li className="">
+            <li>
               <LinkItem to="/membership" color={theme}>
                 {t('Membership')}
               </LinkItem>
             </li>
-            <li className="">
+            <li>
               <LinkItem to="/about-us" color={theme}>
                 {t('AboutUs')}
               </LinkItem>

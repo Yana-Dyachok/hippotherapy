@@ -85,6 +85,16 @@ export const resources = {
       BenefitsEndTwo:
         'Join Ueatara to become part of a professional community, develop your skills, help others and promote the integration of equine therapy into the health, education and social adaptation system.',
       SupportUnion: 'SUPPORT THE UNION',
+      Reports: 'Reports',
+      PrivacyPolicy: 'Privacy Policy',
+      Status: 'Charter of the Union',
+      Subscribe: 'Subscribe to the newsletter',
+      ErrorRequire: 'Email is required',
+      ErrorLenght: 'Email cannot be longer than 255 characters',
+      ErrorValid:
+        'Email must be a valid email address (e.g., user@example.com)',
+      ErrorWrong: 'Something went wrong. Please try again.',
+      Success: 'Success',
     },
   },
   UA: {
@@ -170,6 +180,16 @@ export const resources = {
       BenefitsEndTwo:
         'Приєднуйтесь до Ueatara, щоб стати частиною професійної спільноти, розвивати свої навички, допомагати іншим та сприяти інтеграції кінної терапії в систему охорони здоров’я, освіти та соціальної адаптації.',
       SupportUnion: 'ПІДТРИМАТИ СПІЛКУ',
+      Reports: 'Звіти',
+      PrivacyPolicy: 'Політика конфідеційності',
+      Status: 'Статут спілки',
+      Subscribe: 'Підписатися на розсилку',
+      ErrorRequire: 'Електронна пошта обов`язкова',
+      ErrorLenght: 'Електронна пошта не може бути довшою 255 символів',
+      ErrorValid:
+        'Електронна пошта повинна бути дійсною адресою (e.g., user@example.com)',
+      ErrorWrong: 'Щось пішло не так. Будь ласка, спробуйте ще раз.',
+      Success: 'Успішно',
     },
   },
 };
