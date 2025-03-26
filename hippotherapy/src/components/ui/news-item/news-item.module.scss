@@ -1,0 +1,25 @@
+@use '../../../styles/colors.scss' as colors;
+
+.figure {
+  width: 58rem;
+  height: 48.4rem;
+  border-radius: 1.2rem;
+  border: 1px solid colors.$c-gray-150;
+  padding: 1rem;
+  margin: 0;
+}
+
+.img {
+  border-radius: 1.2rem;
+}
+
+.titleNews {
+  font-family: 'Roboto-medium, sans serif';
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  padding: 1.5rem 0 1.3rem;
+}
+
+.subTitleNews {
+  text-indent: 2rem;
+}

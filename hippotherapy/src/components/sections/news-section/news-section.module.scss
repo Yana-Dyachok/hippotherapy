@@ -1,0 +1,28 @@
+@use '../../../styles/colors.scss' as colors;
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 11.8rem 0.1rem 1.9rem;
+}
+
+.wrapper {
+  max-width: 122.4rem;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.sliderBlock {
+  max-width: 122.4rem;
+  position: relative;
+}
+
+.title {
+  font-family: 'Rubik-Mono-one, monospace';
+  font-size: 4rem;
+  padding-bottom: 1.5rem;
+}

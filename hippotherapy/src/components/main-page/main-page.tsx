@@ -4,6 +4,9 @@ import { HeroSection } from '../sections/hero-section/hero-section';
 import { BecomeMemberSection } from '../sections/become-member-section/become-member-section';
 import { HelpSection } from '../sections/help-section/help-section';
 import { BenefitsSection } from '../sections/benefits-section/benefits-section';
+import { PhotoGallerySection } from '../sections/photo-gallery-section/photo-gallery-section';
+import { NewsSection } from '../sections/news-section/news-section';
+import { PartnersSection } from '../sections/partners-section/partners-section';
 
 export const MainPage = () => {
   return (
@@ -14,6 +17,9 @@ export const MainPage = () => {
       <DirectionsSection />
       <BenefitsSection />
       <BecomeMemberSection />
+      <PhotoGallerySection />
+      <NewsSection />
+      <PartnersSection />
     </main>
   );
 };

@@ -95,6 +95,15 @@ export const resources = {
         'Email must be a valid email address (e.g., user@example.com)',
       ErrorWrong: 'Something went wrong. Please try again.',
       Success: 'Success',
+      PhotoGallery: 'PHOTO GALLERY',
+      News: 'NEWS',
+      Partners: 'OUR PARTNERS',
+      NewsTitleOne: 'In Ukraine, the First Online Forum on Hypovirus',
+      NewsTitleTwo: 'Adaptive sport is one of the priorities of the Ministry',
+      NewsSubTitleOne:
+        'The Public Union "Union of Specialists in Hippotherapy, Ipovence and Adaptive Equestrian Sport" held the first online forum on ipovence. The purpose of the event was to unite efforts to improve the quality of life of people through therapeutic interaction with horses.',
+      NewsSubTitleTwo:
+        'The Ministry of Youth and Sports of Ukraine began cooperation with sports federations to adapt the rules of competition to the needs of war veterans and people with disabilities. The rules for grappling, pankration, strongman, WKC karate and chess have already been adapted.',
     },
   },
   UA: {
@@ -190,6 +199,15 @@ export const resources = {
         'Електронна пошта повинна бути дійсною адресою (e.g., user@example.com)',
       ErrorWrong: 'Щось пішло не так. Будь ласка, спробуйте ще раз.',
       Success: 'Успішно',
+      PhotoGallery: 'ФОТОГАЛЕРЕЯ',
+      News: 'НОВИНИ',
+      Partners: 'НАШІ ПАРТНЕРИ',
+      NewsTitleOne: 'В Україні відбувся Перший онлайн форум з іповенції',
+      NewsTitleTwo: 'Адаптивний спорт – один з пріоритетів роботи Міністерства',
+      NewsSubTitleOne:
+        'Громадська Спілка «Спілка Спеціалістів з Іпотерапії, Іповенції та Адаптивного Кінного Спорту» провела перший онлайн форум з іповенції. Метою заходу було об`єднання зусиль для покращення якості життя людей через терапевтичну взаємодію з кіньми.',
+      NewsSubTitleTwo:
+        'Міністерство молоді та спорту України розпочало співпрацю зі спортивними федераціями для адаптації правил змагань до потреб ветеранів війни та людей з інвалідністю. Вже адаптовано правила з греплінгу, панкратіону, стронгмену, карате WKC та шахів. ​',
     },
   },
 };

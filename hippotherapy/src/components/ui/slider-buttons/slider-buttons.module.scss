@@ -1,0 +1,13 @@
+@use '../../../styles/colors.scss' as colors;
+
+.sliderButtons {
+  display: flex;
+  gap: 2rem;
+}
+
+.button {
+  width: 5.6rem;
+  height: 5.6rem;
+  border: 1px solid colors.$c-gray-150;
+  border-radius: 1.2rem;
+}

@@ -1,7 +1,7 @@
 'use client';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import { resources } from './launguages-text';
+import { resources } from './languages-text';
 import { store } from '../../lib/store';
 
 const savedLanguage = store.getState().language.language || 'en';

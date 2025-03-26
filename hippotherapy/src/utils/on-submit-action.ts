@@ -1,6 +1,6 @@
-import { IData } from '@/types/interfaces';
+import { IDataEmail } from '@/types/interfaces';
 
-const onSubmitAction = async (formdata: FormData): Promise<IData> => {
+const onSubmitAction = async (formdata: FormData): Promise<IDataEmail> => {
   return {
     email: formdata.get('email') as string,
   };
