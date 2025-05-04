@@ -1,0 +1,46 @@
+@use '../../styles/colors.scss' as colors;
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.buttonTitle {
+  color: colors.$c-gray-150;
+  font-weight: 600;
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+
+.active {
+  color: colors.$c-black;
+}
+
+.infoInner {
+  width: 57.3rem;
+  height: 44.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: colors.$c-blue-200;
+  border-radius: 1.2rem;
+  color: colors.$c-white;
+  padding: 2.5rem;
+}
+
+.subTitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.info {
+  font-size: 1.8rem;
+  padding-left: 6rem;
+}
+
+.textBlock {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}

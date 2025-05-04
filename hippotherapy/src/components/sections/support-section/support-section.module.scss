@@ -1,0 +1,35 @@
+@use '../../../styles/colors.scss' as colors;
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  max-width: 144rem;
+  padding: 6rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+
+.title {
+  font-family: 'Rubik-Mono-one, monospace';
+  font-size: 4rem;
+  padding-left: 0.9rem;
+  line-height: 2.4rem;
+}
+
+.paymentBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 6rem;
+}

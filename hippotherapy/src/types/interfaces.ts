@@ -8,6 +8,10 @@ export interface IDataEmail {
   email: string;
 }
 
+export interface IDataMoney {
+  money: string;
+}
+
 export interface IDataItem {
   photo: StaticImageData;
   title: string;

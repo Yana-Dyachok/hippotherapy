@@ -7,8 +7,10 @@ const InputItem = <T extends FieldValues>({
   register,
   name,
   placeholder,
+  type,
 }: {
   name: string;
+  type: string;
   label?: string;
   register?: UseFormRegister<T>;
   error?: string;
@@ -18,7 +20,7 @@ const InputItem = <T extends FieldValues>({
   return (
     <label htmlFor={name} className={styles.inputWrapper}>
       <input
-        type="text"
+        type={type}
         {...(register ? register(name as Path<T>) : {})}
         name={name}
         className={`${styles.input} ${error === '' ? '' : styles.errorInput}`}

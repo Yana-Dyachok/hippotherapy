@@ -4,23 +4,11 @@ import instaIcon from '../../../assets/svg/instagram.svg';
 import telegIcon from '../../../assets/svg/telegram.svg';
 import faceIcon from '../../../assets/svg/facebook.svg';
 import youtubeIcon from '../../../assets/svg/youtube.svg';
-import googleIcon from '../../../assets/svg/google.svg';
 import style from './social.module.scss';
 
 export const Social = () => {
   return (
     <ul className={style.social}>
-      <li>
-        <Link href="https://ueatara.vercel.app/">
-          <Image
-            src={googleIcon}
-            alt="google"
-            width={24}
-            height={24}
-            priority
-          />
-        </Link>
-      </li>
       <li>
         <Link href="https://www.facebook.com/ueatara/">
           <Image src={faceIcon} alt="face" width={24} height={24} priority />

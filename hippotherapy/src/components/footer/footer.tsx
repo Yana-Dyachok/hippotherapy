@@ -27,7 +27,6 @@ export const Footer = () => {
                 </LinkItem>
               </li>
               <li>
-                {' '}
                 <LinkItem to="#contacts" color={theme}>
                   {t('Contacts')}
                 </LinkItem>
@@ -40,13 +39,11 @@ export const Footer = () => {
                 </LinkItem>
               </li>
               <li>
-                {' '}
                 <LinkItem to="" color={theme}>
                   {t('Status')}
                 </LinkItem>
               </li>
               <li>
-                {' '}
                 <LinkItem to="" color={theme}>
                   {t('PrivacyPolicy')}
                 </LinkItem>
