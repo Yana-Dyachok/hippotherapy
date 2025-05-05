@@ -4,6 +4,7 @@ import { useState, useActionState } from 'react';
 import Form from 'next/form';
 import { useTranslation } from 'react-i18next';
 import * as yup from 'yup';
+import { toast } from 'react-toastify';
 import InputItem from '../ui/input-item/input-item';
 import { Button } from '../ui/button/button';
 import onSubmitAction from '@/utils/on-submit-action';
@@ -21,6 +22,7 @@ export const Subscribe = () => {
     try {
       await emailValidationSchema.validate(data.email);
       const response = await sendEmail(data);
+      toast.success('Success validation');
       setError('');
       return response;
     } catch (validationError) {

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { StoreProvider } from '@/lib/StoreProvider';
+import { Toast } from '@/components/ui/toast';
 import { ErrorBoundary } from '@/components/error-boundary/error-boundary';
 import { Header } from '@/components/header/header';
 import { Footer } from '@/components/footer/footer';
@@ -30,6 +31,7 @@ export default function RootLayout({
               <Header />
               {children}
               <Footer />
+              <Toast />
             </StoreProvider>
           </I18nProvider>
         </ErrorBoundary>
