@@ -92,8 +92,7 @@ export const resources = {
       ErrorRequire: 'Input is required',
       ErrorLenght: 'Email cannot be longer than 255 characters',
       ErrorLenghtMoney: 'The amount is too large.',
-      ErrorValidMoney:
-        'Будь ласка, введіть коректну суму (наприклад, 100 або 100.50).',
+      ErrorValidMoney: 'Please enter a valid amount (e.g. 100 or 100.50).',
       ErrorValid:
         'Email must be a valid email address (e.g., user@example.com)',
       ErrorWrong: 'Something went wrong. Please try again.',
@@ -124,6 +123,9 @@ export const resources = {
       UnBank: 'Universal Bank JSC',
       CharitableContribution: 'Charitable contribution',
       EnterAmount: 'specify the amount in UAH',
+      InteractiveMap: 'INTERACTIVE MAP OF UNION MEMBERS',
+      InteractiveMapText:
+        'Members of our union live in different parts of the world, united around common values, ideas and aspirations. We create a space for the exchange of experience, support and development of each participant. Join us and become part of a large international community of like-minded people!',
     },
   },
   UA: {
@@ -216,7 +218,8 @@ export const resources = {
       ErrorRequire: 'Введення значення обов`язкове',
       ErrorLenght: 'Електронна пошта не може бути довшою 255 символів',
       ErrorLenghtMoney: 'Сума занадто велика.',
-      ErrorValidMoney: 'Please enter a valid amount (e.g. 100 or 100.50).',
+      ErrorValidMoney:
+        'Будь ласка, введіть коректну суму (наприклад, 100 або 100.50).',
       ErrorValid:
         'Електронна пошта повинна бути дійсною адресою (e.g., user@example.com)',
       ErrorWrong: 'Щось пішло не так. Будь ласка, спробуйте ще раз.',
@@ -246,6 +249,9 @@ export const resources = {
       UnBank: 'АТ “Універсал банк”',
       CharitableContribution: 'Благодійна внесок',
       EnterAmount: 'вкажіть сумму в грн',
+      InteractiveMap: 'ІНТЕРАКТИВНА КАРТА ЧЛЕНІВ СПІЛКИ',
+      InteractiveMapText:
+        'Члени нашої спілки проживають у різних куточках світу, об’єднуючись навколо спільних цінностей, ідей та прагнень. Ми створюємо простір для обміну досвідом, підтримки та розвитку кожного учасника. Долучайтесь до нас і станьте частиною великої міжнародної спільноти однодумців!',
     },
   },
 };

@@ -1,0 +1,27 @@
+@use '../../../styles/colors.scss' as colors;
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0.1rem 11rem;
+}
+
+.wrapper {
+  max-width: 122.4rem;
+  width: 100%;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 2rem;
+}
+
+.title {
+  font-family: 'Rubik-Mono-one, monospace';
+  font-size: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.subTitle {
+  text-indent: 2rem;
+}

@@ -19,11 +19,6 @@ export const Header = () => {
         <nav>
           <ul className={style.navList}>
             <li>
-              <LinkItem to="/" color={theme}>
-                {t('Main')}
-              </LinkItem>
-            </li>
-            <li>
               <LinkItem to="/membership" color={theme}>
                 {t('Membership')}
               </LinkItem>
@@ -49,7 +44,7 @@ export const Header = () => {
         </nav>
         <div className={style.buttons}>
           <ToggleLanguages />
-          <Button btnType="button" color="dark">
+          <Button btnType="button" color="dark" to="#support">
             {t('Support')}
           </Button>
         </div>

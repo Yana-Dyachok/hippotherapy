@@ -2,7 +2,7 @@
 import { LinkItem } from '../ui/link/link';
 import { useTranslation } from 'react-i18next';
 import { Social } from '../ui/social/social';
-import { Subscribe } from '../subscribe/subscribe';
+//import { Subscribe } from '../subscribe/subscribe';
 
 import style from './footer.module.scss';
 
@@ -12,7 +12,7 @@ export const Footer = () => {
   return (
     <footer className={style.footer} id="contacts">
       <div className={style.wrapper}>
-        <Subscribe />
+        {/* <Subscribe /> */}
         <div className={style.contactsBlock}>
           <nav className={style.navBlock}>
             <ul className={style.navList}>

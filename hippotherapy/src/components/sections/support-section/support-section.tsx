@@ -9,7 +9,7 @@ import style from './support-section.module.scss';
 export const SupportSection = () => {
   const { t } = useTranslation();
   return (
-    <section className={style.section}>
+    <section className={style.section} id="support">
       <div className={style.block}>
         <h2 className={style.title}>{t('SupportUnion')}</h2>
         <div className={style.inner}>

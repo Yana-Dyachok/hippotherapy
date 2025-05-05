@@ -9,6 +9,7 @@ import { NewsSection } from '../sections/news-section/news-section';
 import { PartnersSection } from '../sections/partners-section/partners-section';
 import { ParticipationSection } from '../sections/participation-section/participation-section';
 import { SupportSection } from '../sections/support-section/support-section';
+import { InteractiveMapSection } from '../sections/interactive-map-section/interactive-map-section';
 
 export const MainPage = () => {
   return (
@@ -24,6 +25,7 @@ export const MainPage = () => {
       <PhotoGallerySection />
       <NewsSection />
       <PartnersSection />
+      <InteractiveMapSection />
     </main>
   );
 };
