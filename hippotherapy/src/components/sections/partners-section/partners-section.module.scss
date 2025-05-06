@@ -3,7 +3,7 @@
 .section {
   display: flex;
   justify-content: center;
-  padding: 10rem 0 12rem;
+  padding: 10rem 0 8rem;
 }
 
 .wrapper {
@@ -24,4 +24,16 @@
 .title {
   font-family: 'Rubik-Mono-one, monospace';
   font-size: 4rem;
+}
+
+@media (width <= 1240px) {
+  .section {
+    padding: 10rem 0 2rem;
+  }
+}
+
+@media (width <= 768px) {
+  .sliderBlock {
+    max-width: 60rem;
+  }
 }

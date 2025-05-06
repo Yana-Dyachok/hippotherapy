@@ -4,7 +4,7 @@ import Image from 'next/image';
 import SponsorshipImg from '../../../assets/svg/sponsor.svg';
 import VolunteeringImg from '../../../assets/svg/volunteering.svg';
 import PartnershipImg from '../../../assets/svg/partnership.svg';
-import style from '../help-section/help-section.module.scss';
+import style from './participation-section.module.scss';
 
 export const ParticipationSection = () => {
   const { t } = useTranslation();

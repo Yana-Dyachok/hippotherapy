@@ -7,7 +7,7 @@
 
 .block {
   max-width: 144rem;
-  padding: 6rem 0rem;
+  padding: 6rem 1rem 9.3rem;
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -15,14 +15,13 @@
 
 .inner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8rem;
+  grid-template-columns: 1fr 0.9fr;
+  gap: 7rem;
 }
 
 .title {
   font-family: 'Rubik-Mono-one, monospace';
   font-size: 4rem;
-  padding-left: 0.9rem;
   line-height: 2.4rem;
 }
 
@@ -30,5 +29,13 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding-top: 6rem;
+  padding-top: 7rem;
+}
+
+@media (width <= 1200px) {
+  .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

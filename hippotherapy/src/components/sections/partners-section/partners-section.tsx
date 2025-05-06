@@ -23,11 +23,20 @@ export const PartnersSection = () => {
         <Swiper
           className={style.sliderBlock}
           modules={[Navigation, Autoplay]}
-          slidesPerView={5}
           spaceBetween={55}
           navigation={{
             nextEl: '.next-partners',
             prevEl: '.prev-partners',
+          }}
+          breakpoints={{
+            0: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 5,
+              spaceBetween: 55,
+            },
           }}
         >
           {partners.map((src, index) => (

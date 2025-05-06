@@ -16,7 +16,7 @@ export const HeroSection = () => {
         <div className={style.textBlock}>
           <h1 className={style.title}>{t('HeroTitle')}</h1>
           <p className={style.subTitle}>{t('HeroSubtitle')}</p>
-          <Button btnType="button" color="light">
+          <Button btnType="button" color="light" to="#member">
             {t('AddToCommunity')}
           </Button>
         </div>

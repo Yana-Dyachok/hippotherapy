@@ -57,3 +57,12 @@
   padding: 2.4rem 0 2.4rem;
   line-height: 3.6rem;
 }
+
+@media (width <= 968px) {
+  .figureBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

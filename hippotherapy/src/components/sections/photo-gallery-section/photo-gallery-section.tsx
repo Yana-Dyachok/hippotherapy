@@ -23,7 +23,6 @@ export const PhotoGallerySection = () => {
         <Swiper
           className={style.sliderBlock}
           modules={[Navigation, Autoplay]}
-          slidesPerView={2}
           spaceBetween={5}
           //loop={true}
           // autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -31,9 +30,17 @@ export const PhotoGallerySection = () => {
             nextEl: '.next-photo',
             prevEl: '.prev-photo',
           }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            980: {
+              slidesPerView: 2,
+            },
+          }}
         >
           {images.map((src, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className={style.swipeBlock}>
               <Image
                 src={src.photo}
                 alt={`slide ${index + 1}`}

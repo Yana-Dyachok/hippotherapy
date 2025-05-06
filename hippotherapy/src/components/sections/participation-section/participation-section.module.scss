@@ -7,7 +7,7 @@
 
 .block {
   max-width: 144rem;
-  padding: 12.1rem 19.5rem 6rem 9rem;
+  padding: 4rem 20rem 6.5rem 9rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,9 +15,9 @@
   width: 100%;
 }
 
-.figureBlock {
+.figureBlockParticipation {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .figure {
@@ -53,9 +53,10 @@
 
 @media (width <= 968px) {
   .block {
-    padding: 12.1rem 2rem 6rem 2rem;
+    padding: 6rem 2rem;
   }
-  .figureBlock {
+
+  .figureBlockParticipation {
     display: flex;
     flex-wrap: wrap;
   }

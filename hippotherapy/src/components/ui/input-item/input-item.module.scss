@@ -1,7 +1,7 @@
 @use '../../../styles/colors.scss' as colors;
 
 .inputWrapper {
-  width: 46.7rem;
+  width: 55rem;
   height: 4.8rem;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,7 @@
   transition: all 0.1s ease 0s;
   &:focus {
     border: 0.2rem solid colors.$c-green;
+    border-radius: 1rem;
   }
 }
 

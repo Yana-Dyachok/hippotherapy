@@ -1,8 +1,12 @@
 @use '../../styles/colors.scss' as colors;
 
+.block {
+  padding-top: 0.2rem;
+}
+
 .buttons {
   display: flex;
-  gap: 2rem;
+  gap: 6.5rem;
 }
 
 .buttonTitle {
@@ -22,25 +26,48 @@
   height: 44.4rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.4rem;
   background-color: colors.$c-blue-200;
   border-radius: 1.2rem;
   color: colors.$c-white;
-  padding: 2.5rem;
+  padding: 4rem 1rem 2rem 3.5rem;
 }
 
 .subTitle {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 
 .info {
   font-size: 1.8rem;
-  padding-left: 6rem;
+  padding-left: 4rem;
 }
 
 .textBlock {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1.5fr 3fr;
   align-items: center;
+}
+
+@media (width <= 680px) {
+  .infoInner {
+    width: 50rem;
+    height: 44.4rem;
+  }
+}
+
+@media (width <= 580px) {
+  .infoInner {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .subTitle {
+    font-size: 1.8rem;
+  }
+
+  .info {
+    font-size: 1.6rem;
+    padding-left: 3rem;
+  }
 }

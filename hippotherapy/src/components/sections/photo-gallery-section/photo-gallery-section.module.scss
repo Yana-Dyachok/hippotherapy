@@ -6,22 +6,34 @@
   padding: 3rem 0;
 }
 
-.wrapper:not(:last-child) {
-  max-width: 122.4rem;
+.wrapper {
   width: 100%;
+  max-width: 122.4rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .block {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 .sliderBlock {
-  max-width: 140rem;
+  padding-top: 1rem;
+  max-width: 95rem;
+  width: 100%;
   position: relative;
 }
 
 .title {
   font-family: 'Rubik-Mono-one, monospace';
   font-size: 4rem;
+}
+
+@media (width <= 980px) {
+  .sliderBlock {
+    max-width: 60rem;
+  }
 }

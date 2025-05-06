@@ -11,7 +11,7 @@ import { Button } from '../ui/button/button';
 import { onSubmitActionMoney } from '@/utils/on-submit-action-money';
 import { moneyValidationSchema } from '@/utils/validation-schemas';
 import { PAYPAL_CLIENT_ID } from '../../../next.config';
-import style from '../subscribe/subscribe.module.scss';
+import style from './payment.module.scss';
 
 export const Payment = () => {
   const theme = 'dark';
@@ -45,20 +45,7 @@ export const Payment = () => {
 
   return (
     <PayPalScriptProvider options={{ clientId: PAYPAL_CLIENT_ID! }}>
-      <Form action={formAction} className={style.form}>
-        <h3 className={style.title}>{t('Contribution')}</h3>
-        <InputItem
-          name="money"
-          type="text"
-          placeholder={t('EnterAmount')}
-          error={error || ''}
-        />
-        <p className={style.message}>{t(message)}</p>
-        <Button btnType="submit" color={theme}>
-          {t('Support')}
-        </Button>
-      </Form>
-      {showPayPal && (
+      {showPayPal ? (
         <PayPalButtons
           style={{ layout: 'vertical' }}
           createOrder={(data, actions) => {
@@ -87,6 +74,23 @@ export const Payment = () => {
             return Promise.resolve();
           }}
         />
+      ) : (
+        <Form action={formAction} className={style.form}>
+          <h3 className={style.title}>{t('Contribution')}</h3>
+          <div className={style.inputBlock}>
+            <InputItem
+              name="money"
+              type="text"
+              placeholder={t('EnterAmount')}
+              error={error || ''}
+            />
+            <p>UAH</p>
+          </div>
+          <p className={style.message}>{t(message)}</p>
+          <Button btnType="submit" color={theme}>
+            {t('Support')}
+          </Button>
+        </Form>
       )}
     </PayPalScriptProvider>
   );

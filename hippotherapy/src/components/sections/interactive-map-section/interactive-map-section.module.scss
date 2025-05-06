@@ -2,7 +2,7 @@
 .section {
   display: flex;
   justify-content: center;
-  padding: 2rem 0.1rem 11rem;
+  padding: 4.3rem 1rem 11rem;
 }
 
 .wrapper {
@@ -12,16 +12,25 @@
 
 .block {
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 2rem;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 7rem;
 }
 
 .title {
   font-family: 'Rubik-Mono-one, monospace';
   font-size: 4rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2.4rem;
 }
 
 .subTitle {
   text-indent: 2rem;
+  font-size: 1.6rem;
+}
+
+@media (width <= 1200px) {
+  .block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
