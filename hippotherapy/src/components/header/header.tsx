@@ -47,7 +47,6 @@ export const Header = () => {
             isMenuOpen ? `${styles.navMain} ${styles.open}` : styles.navMain
           }
         >
-          {' '}
           <ul className={styles.navList}>
             <li onClick={() => setIsMenuOpen(false)}>
               <LinkItem to="/membership" color={theme}>

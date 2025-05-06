@@ -87,7 +87,6 @@ export const resources = {
       SupportUnion: 'SUPPORT THE UNION',
       Reports: 'Reports',
       PrivacyPolicy: 'Privacy Policy',
-      Status: 'Charter of the Union',
       Subscribe: 'Subscribe to the newsletter',
       ErrorRequire: 'Input is required',
       ErrorLenght: 'Email cannot be longer than 255 characters',
@@ -126,6 +125,7 @@ export const resources = {
       InteractiveMap: 'INTERACTIVE MAP OF UNION MEMBERS',
       InteractiveMapText:
         'Members of our union live in different parts of the world, united around common values, ideas and aspirations. We create a space for the exchange of experience, support and development of each participant. Join us and become part of a large international community of like-minded people!',
+      Charter: 'Charter of the Union',
     },
   },
   UA: {
@@ -213,7 +213,6 @@ export const resources = {
       SupportUnion: 'ПІДТРИМАТИ СПІЛКУ',
       Reports: 'Звіти',
       PrivacyPolicy: 'Політика конфідеційності',
-      Status: 'Статут спілки',
       Subscribe: 'Підписатися на розсилку',
       ErrorRequire: 'Введення значення обов`язкове',
       ErrorLenght: 'Електронна пошта не може бути довшою 255 символів',
@@ -252,6 +251,7 @@ export const resources = {
       InteractiveMap: 'ІНТЕРАКТИВНА КАРТА ЧЛЕНІВ СПІЛКИ',
       InteractiveMapText:
         'Члени нашої спілки проживають у різних куточках світу, об’єднуючись навколо спільних цінностей, ідей та прагнень. Ми створюємо простір для обміну досвідом, підтримки та розвитку кожного учасника. Долучайтесь до нас і станьте частиною великої міжнародної спільноти однодумців!',
+      Charter: 'Статут спілки',
     },
   },
 };

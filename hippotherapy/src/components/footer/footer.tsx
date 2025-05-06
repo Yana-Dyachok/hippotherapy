@@ -39,8 +39,8 @@ export const Footer = () => {
                 </LinkItem>
               </li>
               <li>
-                <LinkItem to="" color={theme}>
-                  {t('Status')}
+                <LinkItem to="charter.pdf" color={theme}>
+                  {t('Charter')}
                 </LinkItem>
               </li>
               <li>
