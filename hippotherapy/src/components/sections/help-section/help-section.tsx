@@ -5,6 +5,7 @@ import disabilityImg from '../../../assets/svg/svg-disability.svg';
 import familyImg from '../../../assets/svg/svg-family.svg';
 import puzzleImg from '../../../assets/svg/svg-puzzle.svg';
 import tankImg from '../../../assets/svg/svg-tank.svg';
+import { Title } from '@/components/ui/title/title';
 import style from './help-section.module.scss';
 
 export const HelpSection = () => {
@@ -12,7 +13,7 @@ export const HelpSection = () => {
   return (
     <section className={style.section}>
       <div className={style.block}>
-        <h2 className={style.title}>{t('WeHelp')}</h2>
+        <Title className={style.title} text={t('WeHelp')}></Title>
         <div className={style.figureBlock}>
           <figure className={style.figure}>
             <Image

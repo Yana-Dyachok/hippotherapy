@@ -4,6 +4,7 @@ import Image from 'next/image';
 import SponsorshipImg from '../../../assets/svg/sponsor.svg';
 import VolunteeringImg from '../../../assets/svg/volunteering.svg';
 import PartnershipImg from '../../../assets/svg/partnership.svg';
+import { Title } from '@/components/ui/title/title';
 import style from './participation-section.module.scss';
 
 export const ParticipationSection = () => {
@@ -11,7 +12,7 @@ export const ParticipationSection = () => {
   return (
     <section className={style.section}>
       <div className={style.block}>
-        <h2 className={style.title}>{t('FormsParticipation')}</h2>
+        <Title className={style.title} text={t('FormsParticipation')}></Title>
         <div className={style.figureBlockParticipation}>
           <figure className={style.figure}>
             <Image

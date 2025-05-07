@@ -42,10 +42,7 @@
 }
 
 .title {
-  font-family: 'Rubik-Mono-one, monospace';
-  font-size: 4rem;
   padding-left: 0.9rem;
-  line-height: 2.4rem;
 }
 
 .description {
@@ -58,7 +55,7 @@
   line-height: 3.6rem;
 }
 
-@media (width <= 968px) {
+@media (width <= 1250px) {
   .figureBlock {
     display: flex;
     flex-wrap: wrap;

@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import { SliderButtons } from '@/components/ui/slider-buttons/slider-buttons';
 import { partners } from '@/db/partners';
+import { Title } from '@/components/ui/title/title';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -17,7 +18,7 @@ export const PartnersSection = () => {
     <section className={style.section}>
       <div className={style.wrapper}>
         <div className={style.block}>
-          <h2 className={style.title}>{t('Partners')}</h2>
+          <Title text={t('Partners')}></Title>
           <SliderButtons indicator={'partners'} />
         </div>
         <Swiper

@@ -9,15 +9,13 @@
 .wrapper {
   max-width: 122.5rem;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .contactsBlock {
   display: flex;
   flex-direction: column;
   gap: 3.7rem;
-  padding: 2.2rem 0 0 15.5rem;
+  padding: 2.2rem 0 0 6rem;
 }
 
 .navBlock {
@@ -31,4 +29,13 @@
   gap: 2.5rem;
   font-size: 1.8rem;
   line-height: 2.4rem;
+}
+
+@media (width <= 480px) {
+  .footer {
+    padding: 3rem 1rem;
+  }
+  .contactsBlock {
+    padding: 2.2rem 0 0 2rem;
+  }
 }

@@ -15,15 +15,23 @@
   width: 100%;
 }
 
-.title {
-  font-family: 'Rubik-Mono-one, monospace';
-  font-size: 4rem;
-}
-
 .subTitle {
   padding-bottom: 2rem;
 }
 
 .step {
   font-size: 2.4rem;
+}
+
+@media (width <= 968px) {
+  .block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (width <= 568px) {
+  .block {
+    padding: 6rem 2rem;
+  }
 }

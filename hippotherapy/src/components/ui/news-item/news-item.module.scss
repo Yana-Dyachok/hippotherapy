@@ -2,7 +2,7 @@
 
 .figure {
   width: 58rem;
-  height: 48.4rem;
+  min-height: 48.4rem;
   border-radius: 1.2rem;
   border: 1px solid colors.$c-gray-150;
   padding: 1rem;
@@ -22,4 +22,22 @@
 
 .subTitleNews {
   text-indent: 2rem;
+}
+
+@media (width <= 620px) {
+  .figure {
+    width: 48rem;
+  }
+}
+
+@media (width <= 520px) {
+  .figure {
+    width: 40rem;
+  }
+}
+
+@media (width <= 420px) {
+  .figure {
+    width: 32rem;
+  }
 }

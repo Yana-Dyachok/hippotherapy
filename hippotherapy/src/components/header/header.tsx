@@ -63,13 +63,23 @@ export const Header = () => {
                 {t('Contacts')}
               </LinkItem>
             </li>
+            <li
+              onClick={() => setIsMenuOpen(false)}
+              className={styles.supportLink}
+            >
+              <LinkItem to="#'Support'" color={theme}>
+                {t('Support')}
+              </LinkItem>
+            </li>
           </ul>
         </nav>
         <div className={styles.buttons}>
           <ToggleLanguages />
-          <Button btnType="button" color="dark" to="#support">
-            {t('Support')}
-          </Button>
+          <div className={styles.supportButton}>
+            <Button btnType="button" color="dark" to="#support">
+              {t('Support')}
+            </Button>
+          </div>
         </div>
       </div>
     </header>

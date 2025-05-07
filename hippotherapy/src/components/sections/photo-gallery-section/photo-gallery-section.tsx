@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import { SliderButtons } from '@/components/ui/slider-buttons/slider-buttons';
 import { images } from '@/db/photos';
+import { Title } from '@/components/ui/title/title';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -17,15 +18,15 @@ export const PhotoGallerySection = () => {
     <section className={style.section}>
       <div className={style.wrapper}>
         <div className={style.block}>
-          <h2 className={style.title}>{t('PhotoGallery')}</h2>
+          <Title text={t('PhotoGallery')}></Title>
           <SliderButtons indicator={'photo'} />
         </div>
         <Swiper
           className={style.sliderBlock}
           modules={[Navigation, Autoplay]}
           spaceBetween={5}
-          //loop={true}
-          // autoplay={{ delay: 3000, disableOnInteraction: false }}
+          loop={true}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           navigation={{
             nextEl: '.next-photo',
             prevEl: '.prev-photo',
@@ -34,7 +35,7 @@ export const PhotoGallerySection = () => {
             0: {
               slidesPerView: 1,
             },
-            980: {
+            1200: {
               slidesPerView: 2,
             },
           }}

@@ -1,5 +1,6 @@
 'use client';
 import { useTranslation } from 'react-i18next';
+import { Title } from '@/components/ui/title/title';
 import style from './benefits-section.module.scss';
 
 export const BenefitsSection = () => {
@@ -7,7 +8,7 @@ export const BenefitsSection = () => {
   return (
     <section className={style.section}>
       <div className={style.block}>
-        <h2 className={style.title}>{t('BenefitsTitle')}</h2>
+        <Title className={style.title} text={t('BenefitsTitle')}></Title>
         <p className={style.subTitle}>{t('BenefitsSubTitle')}</p>
         <div className={style.descriptionsBlock}>
           <div className={style.descriptionsWrapper}>

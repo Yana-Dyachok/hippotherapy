@@ -2,6 +2,7 @@
 
 import { useTranslation } from 'react-i18next';
 import dynamic from 'next/dynamic';
+import { Title } from '@/components/ui/title/title';
 import { Button } from '@/components/ui/button/button';
 
 const StaticMapWithLink = dynamic(
@@ -15,7 +16,7 @@ export const InteractiveMapSection = () => {
   return (
     <section className={style.section}>
       <div className={style.wrapper}>
-        <h2 className={style.title}>{t('InteractiveMap')}</h2>
+        <Title className={style.title} text={t('InteractiveMap')}></Title>
         <div className={style.block}>
           <div className={style.infoBlock}>
             <h3 className={style.subTitle}>{t('InteractiveMapText')}</h3>

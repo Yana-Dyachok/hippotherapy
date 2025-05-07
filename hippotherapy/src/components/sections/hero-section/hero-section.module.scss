@@ -25,8 +25,6 @@
 }
 
 .title {
-  font-family: 'Rubik-Mono-one, monospace';
-  font-size: 4rem;
   padding-bottom: 3.5rem;
 }
 
@@ -38,6 +36,21 @@
 
 @media (width <= 968px) {
   .wrapper {
-    padding: 2rem;
+    padding: 8rem 2rem 0 6rem;
+  }
+}
+
+@media (width <= 768px) {
+  .hero {
+    padding: 0 3rem;
+  }
+}
+
+@media (width <= 568px) {
+  .hero {
+    padding: 0;
+  }
+  .wrapper {
+    padding: 4rem;
   }
 }

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import firstImg from '../../../assets/img/first.png';
 import secondImg from '../../../assets/img/second.png';
 import thirdImg from '../../../assets/img/third.png';
+import { Title } from '@/components/ui/title/title';
 import style from './directions-section.module.scss';
 
 export const DirectionsSection = () => {
@@ -11,7 +12,7 @@ export const DirectionsSection = () => {
   return (
     <section className={style.section}>
       <div className={style.block}>
-        <h2 className={style.title}>{t('Directions')}</h2>
+        <Title className={style.title} text={t('Directions')}></Title>
         <div className={style.figureBlock}>
           <figure className={style.figure}>
             <Image

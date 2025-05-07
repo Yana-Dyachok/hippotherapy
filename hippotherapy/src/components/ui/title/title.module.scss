@@ -1,0 +1,16 @@
+.titles {
+  font-family: 'Rubik-Mono-one, monospace';
+  font-size: 4rem;
+}
+
+@media (width <= 768px) {
+  .titles {
+    font-size: 3rem;
+  }
+}
+
+@media (width <= 480px) {
+  .titles {
+    font-size: 2.5rem;
+  }
+}

@@ -27,13 +27,18 @@
   position: relative;
 }
 
-.title {
-  font-family: 'Rubik-Mono-one, monospace';
-  font-size: 4rem;
-}
+@media (width <= 1200px) {
+  .section {
+    padding: 3rem 1rem;
+  }
 
-@media (width <= 980px) {
   .sliderBlock {
     max-width: 60rem;
+  }
+}
+
+@media (width <= 480px) {
+  .swipeBlock {
+    width: 38rem;
   }
 }

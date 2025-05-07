@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   color: colors.$c-black;
   background-color: colors.$c-white;
+  overflow-x: hidden;
 }
 
 @media (max-width: 580px) {

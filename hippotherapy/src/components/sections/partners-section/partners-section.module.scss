@@ -21,14 +21,9 @@
   max-width: 75rem;
 }
 
-.title {
-  font-family: 'Rubik-Mono-one, monospace';
-  font-size: 4rem;
-}
-
 @media (width <= 1240px) {
   .section {
-    padding: 10rem 0 2rem;
+    padding: 10rem 1rem 2rem;
   }
 }
 

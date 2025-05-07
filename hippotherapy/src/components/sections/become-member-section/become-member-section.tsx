@@ -1,6 +1,7 @@
 'use client';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button/button';
+import { Title } from '@/components/ui/title/title';
 import style from './become-member-section.module.scss';
 
 export const BecomeMemberSection = () => {
@@ -8,7 +9,7 @@ export const BecomeMemberSection = () => {
   return (
     <section className={style.section} id="member">
       <div className={style.block}>
-        <h2 className={style.title}>{t('BecomeMemberTitle')}</h2>
+        <Title text={t('BecomeMemberTitle')}></Title>
         <div className={style.subTitles}>
           <h3 className={style.step}>{t('Step')} 1</h3>
           <p className={style.subTitle}>{t('BecomeMemberStepOne')}</p>

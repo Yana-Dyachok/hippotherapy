@@ -34,3 +34,15 @@
 .errorInput {
   border: 0.2rem solid colors.$c-red;
 }
+
+@media (width <= 620px) {
+  .inputWrapper {
+    width: 40rem;
+  }
+}
+
+@media (width <= 480px) {
+  .inputWrapper {
+    width: 32rem;
+  }
+}

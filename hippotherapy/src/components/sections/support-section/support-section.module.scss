@@ -1,12 +1,13 @@
 @use '../../../styles/colors.scss' as colors;
 
-.section {
+.section:not(:first-child) {
   display: flex;
   justify-content: center;
 }
 
 .block {
-  max-width: 144rem;
+  width: 100%;
+  max-width: 122rem;
   padding: 6rem 1rem 9.3rem;
   display: flex;
   flex-direction: column;
@@ -19,12 +20,6 @@
   gap: 7rem;
 }
 
-.title {
-  font-family: 'Rubik-Mono-one, monospace';
-  font-size: 4rem;
-  line-height: 2.4rem;
-}
-
 .paymentBlock {
   display: flex;
   flex-direction: column;
@@ -32,10 +27,28 @@
   padding-top: 7rem;
 }
 
+@media (width <= 1400px) {
+  .inner {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    gap: 2rem;
+  }
+}
+
 @media (width <= 1200px) {
   .inner {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 8rem;
+  }
+}
+
+@media (width <= 968px) {
+  .block {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
   }
 }
