@@ -17,12 +17,12 @@ export const Footer = () => {
           <nav className={style.navBlock}>
             <ul className={style.navList}>
               <li>
-                <LinkItem to="/about-us" color={theme}>
+                <LinkItem to="#about-us" color={theme}>
                   {t('AboutUs')}
                 </LinkItem>
               </li>
               <li>
-                <LinkItem to="/membership" color={theme}>
+                <LinkItem to="/" color={theme}>
                   {t('Membership')}
                 </LinkItem>
               </li>

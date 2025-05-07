@@ -49,12 +49,7 @@ export const Header = () => {
         >
           <ul className={styles.navList}>
             <li onClick={() => setIsMenuOpen(false)}>
-              <LinkItem to="/membership" color={theme}>
-                {t('Membership')}
-              </LinkItem>
-            </li>
-            <li onClick={() => setIsMenuOpen(false)}>
-              <LinkItem to="/about-us" color={theme}>
+              <LinkItem to="#about-us" color={theme}>
                 {t('AboutUs')}
               </LinkItem>
             </li>

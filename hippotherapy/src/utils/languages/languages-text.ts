@@ -20,14 +20,14 @@ export const resources = {
       Contacts: 'Contacts',
       Support: 'Support',
       AboutTextOne:
-        'Ueatara - Public Union "Union of Hippotherapy, Hypotension and Adaptive Equestrian Sports Specialists," strive to unite the efforts of specialists, enthusiasts and organizations to improve the quality of life of people through the use of the therapeutic potential of interaction with horses. We promote the development of hippotherapy, adaptive equestrian sport and ipovence in Ukraine by creating innovative rehabilitation programs, supporting research and implementing international standards.',
+        'Our goal is to create a professional community of specialists in the field of therapeutic interaction with horses, which works according to modern standards, combines common experience, supports development, protects the interests of specialists and popularizes therapeutic interaction with horses',
       AboutTextTwo:
-        'Our goal is to make hippotherapy accessible to everyone who needs it, to promote the professional development of industry specialists, as well as to form a socially responsible community where everyone can find support, an opportunity for growth and new prospects. Together, we create favorable conditions for the integration of equestrian therapy into the system of health care, education and social adaptation, opening new horizons for the development of this direction in Ukraine.',
+        'The main directions of the Union`s work are aimed at supporting specialists practicing therapeutic, developmental and adaptive interaction with horses. We create conditions for professional development, exchange of experience and cooperation, implement quality and safety standards, conduct educational and scientific activities, and also work on changes in legislation to recognize and support this industry.',
       AddToCommunity: 'Add To Community',
       HeroTitle:
         'New opportunities for equestrian sport and rehabilitation in Ukraine',
       HeroSubtitle:
-        'We work on the implementation of modern techniques, unite specialists and create opportunities for the development of equestrian sports and rehabilitation. Join the changes!',
+        'We unite specialists in the field of horse-assisted interaction for joint development, training and implementation of high standards.',
       BecomeMemberTitle: 'HOW TO BECOME A MEMBER',
       BecomeMemberStepOne:
         'Joining us is easy! Complete the registration form and become part of a community that supports adaptive sports and rehabilitation.',
@@ -52,7 +52,7 @@ export const resources = {
 
       BenefitsTitle: 'BENEFITS OF MEMBERSHIP',
       BenefitsSubTitle:
-        'Becoming a member of the public union "Ueatara," you get unique opportunities for professional and personal development, access to modern knowledge and support in the implementation of your initiatives in the field of hippotherapy, hypoventia and adaptive equestrian sports.',
+        'Membership in our Union is an opportunity to grow together with a professional community of like-minded people. We unite those who seek to improve the quality of their practice, introduce new approaches and develop the field of therapeutic interaction with horses in Ukraine.',
       BenefitsItemOne: 'Educational and professional opportunities',
       BenefitsItemTwo: 'Participation in projects and events',
       BenefitsItemThree: 'Support and exchange of experience',
@@ -124,8 +124,13 @@ export const resources = {
       EnterAmount: 'specify the amount in UAH',
       InteractiveMap: 'INTERACTIVE MAP OF UNION MEMBERS',
       InteractiveMapText:
-        'Members of our union live in different parts of the world, united around common values, ideas and aspirations. We create a space for the exchange of experience, support and development of each participant. Join us and become part of a large international community of like-minded people!',
+        'See who supports adaptive sports in your area. Learn more about our partners and members',
       Charter: 'Charter of the Union',
+      GoToMap: 'Go to map',
+      PaymentSuccess: 'Payment successful',
+      PaymentDeclined: 'Payment declined',
+      PaymentPending: 'Payment pending',
+      SuccessValidation: 'Success validation',
     },
   },
   UA: {
@@ -149,13 +154,13 @@ export const resources = {
       Contacts: 'Контакти',
       Support: 'Підтримати',
       AboutTextOne:
-        'Ueatara – громадська спілка «Спілка Спеціалістів з Іпотерапії, Іповенції та Адаптивного Кінного Спорту», прагнемо об`єднати зусилля фахівців, ентузіастів та організацій для покращення якості життя людей через використання терапевтичного потенціалу взаємодії з кіньми. Ми сприяємо розвитку іпотерапії, адаптивного кінного спорту та іповенції в Україні, створюючи інноваційні програми реабілітації, підтримуючи наукові дослідження та впроваджуючи міжнародні стандарти.',
+        'Наша ціль - створити професійну спільноту фахівців в сфері терапевтичної взаємодії з кіньми, яка працює за сучасними стандартами, об`єднує спільний досвід, підтримує розвиток, захищає інтереси спеціалістів і популяризує терапевтичну взаємодію з кіньми',
       AboutTextTwo:
-        'Наша мета – зробити іпотерапію доступною для всіх, хто її потребує, сприяти професійному розвитку спеціалістів галузі, а також формувати соціально відповідальну спільноту, де кожен може знайти підтримку, можливість для зростання та нові перспективи. Разом ми створюємо сприятливі умови для інтеграції кінної терапії в систему охорони здоров`я, освіти та соціальної адаптації, відкриваючи нові горизонти для розвитку цього напрямку в Україні.',
+        'Основні напрямки роботи Спілки спрямовані на підтримку фахівців, які практикують терапевтичну, розвивальну та адаптивну взаємодію з кіньми. Ми створюємо умови для професійного розвитку, обміну досвідом та співпраці, впроваджуємо стандарти якості й безпеки, ведемо просвітницьку та наукову діяльність, а також працюємо над змінами у законодавстві для визнання і підтримки цієї галузі.',
       AddToCommunity: 'Долучитися до спільноти',
       HeroTitle: 'Нові можливості для кінного спорту та реабілітації в Україні',
       HeroSubtitle:
-        'Ми працюємо над впровадженням сучасних методик, об`єднуємо спеціалістів та створюємо можливості для розвитку кінного спорту та реабілітації. Приєднуйтесь до змін!',
+        'Ми об’єднуємо фахівців у сфері кінно-асистованої взаємодії для спільного розвитку, навчання та впровадження високих стандартів.',
       BecomeMemberTitle: 'ЯК СТАТИ ЧЛЕНОМ',
       BecomeMemberStepOne:
         'Приєднатися до нас легко! Заповніть реєстраційну форму і станьте частиною спільноти, яка підтримує адаптивний спорт та реабілітацію.',
@@ -178,7 +183,7 @@ export const resources = {
         'це спеціально розроблені заняття верховою їздою для людей з інвалідністю та особливими потребами. Вони сприяють фізичному розвитку, покращенню координації, рівноваги та впевненості в собі. Завдяки індивідуальному підходу та спеціальним методикам, кінний спорт стає доступним для всіх, незалежно від фізичних можливостей.',
       BenefitsTitle: 'ПЕРЕВАГИ ЧЛЕНСТВА',
       BenefitsSubTitle:
-        'Ставши членом громадської спілки «Ueatara», ви отримуєте унікальні можливості для професійного та особистісного розвитку, доступ до сучасних знань та підтримку в реалізації ваших ініціатив у сфері іпотерапії, іповенції та адаптивного кінного спорту.',
+        'Членство в нашій Спілці — це можливість зростати разом із професійною спільнотою однодумців. Ми об’єднуємо тих, хто прагне підвищити якість своєї практики, впроваджувати нові підходи та розвивати сферу терапевтичної взаємодії з кіньми в Україні.',
       BenefitsItemOne: 'Освітні та професійні можливості',
       BenefitsItemTwo: 'Участь у проєктах та заходах',
       BenefitsItemThree: 'Підтримка та обмін досвідом',
@@ -250,8 +255,13 @@ export const resources = {
       EnterAmount: 'вкажіть сумму в грн',
       InteractiveMap: 'ІНТЕРАКТИВНА КАРТА ЧЛЕНІВ СПІЛКИ',
       InteractiveMapText:
-        'Члени нашої спілки проживають у різних куточках світу, об’єднуючись навколо спільних цінностей, ідей та прагнень. Ми створюємо простір для обміну досвідом, підтримки та розвитку кожного учасника. Долучайтесь до нас і станьте частиною великої міжнародної спільноти однодумців!',
+        'Подивіться, хто підтримує адаптивний спорт у вашому регіоні. Дізнайтеся більше про наших партнерів та членів організації',
       Charter: 'Статут спілки',
+      GoToMap: 'Перейти до карти',
+      PaymentSuccess: 'Оплата успішна',
+      PaymentDeclined: 'Платіж відхилено',
+      PaymentPending: 'Очікування оплати',
+      SuccessValidation: 'Успішна валідація',
     },
   },
 };

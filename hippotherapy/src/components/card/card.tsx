@@ -1,32 +1,14 @@
 'use client';
-import { useState } from 'react';
+
 import { useTranslation } from 'react-i18next';
 import style from './card.module.scss';
 
 export const CardInfo = () => {
   const { t } = useTranslation();
-  const [isActive, setIsActive] = useState<boolean>(true);
-
-  const handleClick = (flag: boolean): void => {
-    setIsActive(flag);
-  };
 
   return (
     <div className={style.block}>
-      <div className={style.buttons}>
-        <button
-          className={`${style.buttonTitle} ${isActive ? style.active : ''}`}
-          onClick={() => handleClick(true)}
-        >
-          {t('InUkraine')}
-        </button>
-        <button
-          className={`${style.buttonTitle} ${isActive ? '' : style.active}`}
-          onClick={() => handleClick(false)}
-        >
-          {t('FromAbroad')}
-        </button>
-      </div>
+      <h3 className={style.title}>{t('InUkraine')}</h3>
       <div className={style.infoInner}>
         <div className={style.textBlock}>
           <p className={style.subTitle}>{t('Recipient')}</p>

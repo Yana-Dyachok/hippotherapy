@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { StoreProvider } from '@/lib/StoreProvider';
+import Script from 'next/script';
 import { Toast } from '@/components/ui/toast';
 import { ErrorBoundary } from '@/components/error-boundary/error-boundary';
 import { Header } from '@/components/header/header';
@@ -23,8 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://secure.wayforpay.com/server/pay-widget.js"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body>
-        {' '}
         <ErrorBoundary>
           <I18nProvider>
             <StoreProvider>
