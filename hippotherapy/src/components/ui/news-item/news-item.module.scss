@@ -32,12 +32,24 @@
 
 @media (width <= 520px) {
   .figure {
+    width: 44rem;
+  }
+}
+
+@media (width <= 480px) {
+  .figure {
     width: 40rem;
   }
 }
 
-@media (width <= 420px) {
+@media (width <= 440px) {
   .figure {
-    width: 32rem;
+    width: 36rem;
+  }
+}
+
+@media (width <= 400px) {
+  .figure {
+    width: 33rem;
   }
 }

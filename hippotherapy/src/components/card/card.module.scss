@@ -51,8 +51,9 @@
 
 @media (width <= 580px) {
   .infoInner {
-    width: 40rem;
+    width: 38rem;
     height: 40rem;
+    padding: 2rem 1rem;
   }
 
   .subTitle {
@@ -62,5 +63,12 @@
   .info {
     font-size: 1.6rem;
     padding-left: 3rem;
+  }
+}
+
+@media (width <= 420px) {
+  .infoInner {
+    width: 36rem;
+    height: 40rem;
   }
 }

@@ -33,7 +33,13 @@
   }
 
   .sliderBlock {
-    max-width: 60rem;
+    max-width: 80rem;
+  }
+}
+
+@media (width <= 860px) {
+  .sliderBlock {
+    max-width: 45rem;
   }
 }
 
